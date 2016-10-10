@@ -25,27 +25,39 @@
 #include <unistd.h>
 //! [Interesting]
 #include "mraa/aio.h"
+#include <sys/time.h>
+
+
 
 int
 main()
 {
-    mraa_aio_context adc_a0;
+    mraa_aio_context* adc_a0;
+    adc_a0 = (mraa_aio_context*)malloc(sizeof(mraa_aio_context));
     uint16_t adc_value = 0;
     float adc_value_float = 0.0;
+    struct timeval tv, tv_old;
+    unsigned long old_time, new_time;
+    old_time = 0;
 
-    adc_a0 = mraa_aio_init(0);
-    if (adc_a0 == NULL) {
+    *adc_a0 = mraa_aio_init(0);
+    if (*adc_a0 == NULL) {
         return 1;
     }
+    mraa_aio_set_bit(*adc_a0,12);
+    
 
     for (;;) {
-        adc_value = mraa_aio_read(adc_a0);
-        adc_value_float = mraa_aio_read_float(adc_a0);
-        fprintf(stdout, "ADC A0 read %X - %d\n", adc_value, adc_value);
-        fprintf(stdout, "ADC A0 read float - %.5f\n", adc_value_float);
+        adc_value = mraa_aio_read(*adc_a0);
+        adc_value_float = mraa_aio_read_float(*adc_a0);
+        gettimeofday(&tv,NULL);
+        new_time = tv.tv_usec+tv.tv_sec*1000000;
+        fprintf(stdout, "%d\n", adc_value);
+        old_time = new_time;
+        //usleep(500);
     }
 
-    mraa_aio_close(adc_a0);
+    mraa_aio_close(*adc_a0);
 
     return MRAA_SUCCESS;
 }

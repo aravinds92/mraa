@@ -38,15 +38,18 @@ main(int argc, char** argv)
 
     switch (platform) {
         case MRAA_INTEL_GALILEO_GEN1:
+            printf("Galileo\n");
             gpio = mraa_gpio_init_raw(3);
             break;
         case MRAA_INTEL_MINNOWBOARD_MAX:
             // there is no onboard LED that we can flash on the minnowboard max
             // but on the calamari lure pin 21 is an LED. If you don't have the
             // lure put an LED on pin 21
+            printf("Minnow\n");
             gpio = mraa_gpio_init(21);
             break;
         default:
+            printf("Edison\n");
             gpio = mraa_gpio_init(13);
     }
 

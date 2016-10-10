@@ -28,7 +28,7 @@
 #include <signal.h>
 #include <stdlib.h>
 
-#include "mraa.h"
+#include <mraa.h>
 
 #define DEFAULT_IOPIN 8
 
