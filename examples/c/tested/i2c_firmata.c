@@ -22,8 +22,10 @@
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include "mraa.h"
+#include <mraa.h>
 #include <sys/time.h>
+#include "intel_edison_fab_c.h"
+
 
 int
 main(int argc, char** argv)
@@ -33,6 +35,7 @@ main(int argc, char** argv)
     uint8_t address = 8;				//Slave address as set in the arduino code
     mraa_i2c_context i2c;
     i2c = mraa_i2c_init(6);				//Bus number for A4-A5 pins
+    //mraa_intel_edison_i2c_freq(i2c, MRAA_I2C_HIGH);
     mraa_i2c_address(i2c, address);
     unsigned long new_time=0;
    

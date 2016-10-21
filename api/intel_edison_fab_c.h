@@ -1,7 +1,6 @@
 /*
  * Author: Thomas Ingleby <thomas.c.ingleby@intel.com>
- * Author: Brendan Le Foll <brendan.le.foll@intel.com>
- * Copyright (c) 2014, 2015 Intel Corporation.
+ * Copyright (c) 2014 Intel Corporation.
  *
  * Permission is hereby granted, free of charge, to any person obtaining
  * a copy of this software and associated documentation files (the
@@ -23,28 +22,19 @@
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include "stdio.h"
-//! [Interesting]
-#include "mraa.h"
+#pragma once
 
-int
-main(int argc, char** argv)
-{
-    mraa_uart_context uart;
-    uart = mraa_uart_init(0);
+#ifdef __cplusplus
+extern "C" {
+#endif
 
-    if (uart == NULL) {
-        fprintf(stderr, "UART failed to setup\n");
-        return EXIT_FAILURE;
-    }
+#include "mraa_internal.h"
 
-    char buffer[] = "Hello Mraa!";
-    mraa_uart_write(uart, buffer, sizeof(buffer));
+#define MRAA_INTEL_EDISON_PINCOUNT 25
 
-    mraa_uart_stop(uart);
+mraa_board_t*
+mraa_intel_edison_fab_c();
 
-    mraa_deinit();
-
-    return EXIT_SUCCESS;
+#ifdef __cplusplus
 }
-//! [Interesting]
+#endif
