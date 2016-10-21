@@ -766,7 +766,6 @@ mraa_result_t
 mraa_intel_edison_i2c_freq(mraa_i2c_context dev, mraa_i2c_mode_t mode)
 {
     int sysnode = -1;
-
     switch (dev->busnum) {
         case 1:
             sysnode = open("/sys/devices/pci0000:00/0000:00:08.0/i2c_dw_sysnode/mode", O_RDWR);

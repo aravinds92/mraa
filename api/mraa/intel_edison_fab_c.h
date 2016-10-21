@@ -1,6 +1,6 @@
 /*
- * Author: Brendan Le Foll <brendan.le.foll@intel.com>
- * Copyright (c) 2016 Intel Corporation.
+ * Author: Thomas Ingleby <thomas.c.ingleby@intel.com>
+ * Copyright (c) 2014 Intel Corporation.
  *
  * Permission is hereby granted, free of charge, to any person obtaining
  * a copy of this software and associated documentation files (the
@@ -21,37 +21,20 @@
  * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-#include <mraa.h>
-#include <sys/time.h>
 
+#pragma once
 
-int
-main(int argc, char** argv)
-{
-    mraa_init();
-    mraa_add_subplatform(MRAA_GENERIC_FIRMATA, "/dev/ttyACM0");
-    uint8_t address = 8;				//Slave address as set in the arduino code
-    mraa_i2c_context i2c;
-    i2c = mraa_i2c_init(6);				//Bus number for A4-A5 pins
-    mraa_intel_edison_i2c_freq(i2c, MRAA_I2C_HIGH);
-    mraa_i2c_address(i2c, address);
-    unsigned long new_time=0;
-   
-    char data[10];
-    
-    
-    /*while(1)			//Write
-    {
-    	mraa_i2c_write_byte(i2c, 'a');
-    	printf("Written\n");
-    	sleep(1);
-    }*/
-    /*while(1)		//Read
-    {
-    	mraa_i2c_read(i2c, data, 1);
-    	printf("%s\n",data);
-    	usleep(100);
-    }*/
+#ifdef __cplusplus
+extern "C" {
+#endif
 
-    printf("Average time:%lu\n",new_time);
+#include "mraa_internal.h"
+
+#define MRAA_INTEL_EDISON_PINCOUNT 25
+
+mraa_board_t*
+mraa_intel_edison_fab_c();
+
+#ifdef __cplusplus
 }
+#endif

@@ -22,7 +22,9 @@
  * IN THE SOFTWARE.
  */
 
-#pragma once
+#ifndef COMMON_H
+#define COMMON_H
+#endif
 
 #include <stdint.h>
 #include "types.h"

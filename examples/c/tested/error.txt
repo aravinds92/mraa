@@ -1,0 +1,2917 @@
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:40:5: error: redeclaration of enumerator ‘MRAA_INTEL_GALILEO_GEN1’
+     MRAA_INTEL_GALILEO_GEN1 = 0,    /**< The Generation 1 Galileo platform (RevD) */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:40:5: note: previous definition of ‘MRAA_INTEL_GALILEO_GEN1’ was here
+     MRAA_INTEL_GALILEO_GEN1 = 0,    /**< The Generation 1 Galileo platform (RevD) */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:41:5: error: redeclaration of enumerator ‘MRAA_INTEL_GALILEO_GEN2’
+     MRAA_INTEL_GALILEO_GEN2 = 1,    /**< The Generation 2 Galileo platform (RevG/H) */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:41:5: note: previous definition of ‘MRAA_INTEL_GALILEO_GEN2’ was here
+     MRAA_INTEL_GALILEO_GEN2 = 1,    /**< The Generation 2 Galileo platform (RevG/H) */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:42:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_FAB_C’
+     MRAA_INTEL_EDISON_FAB_C = 2,    /**< The Intel Edison (FAB C) */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:42:5: note: previous definition of ‘MRAA_INTEL_EDISON_FAB_C’ was here
+     MRAA_INTEL_EDISON_FAB_C = 2,    /**< The Intel Edison (FAB C) */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:43:5: error: redeclaration of enumerator ‘MRAA_INTEL_DE3815’
+     MRAA_INTEL_DE3815 = 3,          /**< The Intel DE3815 Baytrail NUC */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:43:5: note: previous definition of ‘MRAA_INTEL_DE3815’ was here
+     MRAA_INTEL_DE3815 = 3,          /**< The Intel DE3815 Baytrail NUC */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:44:5: error: redeclaration of enumerator ‘MRAA_INTEL_MINNOWBOARD_MAX’
+     MRAA_INTEL_MINNOWBOARD_MAX = 4, /**< The Intel Minnow Board Max */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:44:5: note: previous definition of ‘MRAA_INTEL_MINNOWBOARD_MAX’ was here
+     MRAA_INTEL_MINNOWBOARD_MAX = 4, /**< The Intel Minnow Board Max */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:45:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_PI’
+     MRAA_RASPBERRY_PI = 5,          /**< The different Raspberry PI Models -like  A,B,A+,B+ */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:45:5: note: previous definition of ‘MRAA_RASPBERRY_PI’ was here
+     MRAA_RASPBERRY_PI = 5,          /**< The different Raspberry PI Models -like  A,B,A+,B+ */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:46:5: error: redeclaration of enumerator ‘MRAA_BEAGLEBONE’
+     MRAA_BEAGLEBONE = 6,            /**< The different BeagleBone Black Modes B/C */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:46:5: note: previous definition of ‘MRAA_BEAGLEBONE’ was here
+     MRAA_BEAGLEBONE = 6,            /**< The different BeagleBone Black Modes B/C */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:47:5: error: redeclaration of enumerator ‘MRAA_BANANA’
+     MRAA_BANANA = 7,                /**< Allwinner A20 based Banana Pi and Banana Pro */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:47:5: note: previous definition of ‘MRAA_BANANA’ was here
+     MRAA_BANANA = 7,                /**< Allwinner A20 based Banana Pi and Banana Pro */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:48:5: error: redeclaration of enumerator ‘MRAA_INTEL_NUC5’
+     MRAA_INTEL_NUC5 = 8,            /**< The Intel 5th generations Broadwell NUCs */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:48:5: note: previous definition of ‘MRAA_INTEL_NUC5’ was here
+     MRAA_INTEL_NUC5 = 8,            /**< The Intel 5th generations Broadwell NUCs */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:49:5: error: redeclaration of enumerator ‘MRAA_96BOARDS’
+     MRAA_96BOARDS = 9,            /**< Linaro 96boards */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:49:5: note: previous definition of ‘MRAA_96BOARDS’ was here
+     MRAA_96BOARDS = 9,            /**< Linaro 96boards */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:50:5: error: redeclaration of enumerator ‘MRAA_INTEL_SOFIA_3GR’
+     MRAA_INTEL_SOFIA_3GR = 10,      /**< The Intel SoFIA 3GR */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:50:5: note: previous definition of ‘MRAA_INTEL_SOFIA_3GR’ was here
+     MRAA_INTEL_SOFIA_3GR = 10,      /**< The Intel SoFIA 3GR */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:51:5: error: redeclaration of enumerator ‘MRAA_INTEL_CHERRYHILLS’
+     MRAA_INTEL_CHERRYHILLS = 11,     /**< The Intel Braswell Cherryhills */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:51:5: note: previous definition of ‘MRAA_INTEL_CHERRYHILLS’ was here
+     MRAA_INTEL_CHERRYHILLS = 11,     /**< The Intel Braswell Cherryhills */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:52:5: error: redeclaration of enumerator ‘MRAA_UP’
+     MRAA_UP = 12,                    /**< The UP Board */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:52:5: note: previous definition of ‘MRAA_UP’ was here
+     MRAA_UP = 12,                    /**< The UP Board */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:53:5: error: redeclaration of enumerator ‘MRAA_INTEL_GT_TUCHUCK’
+     MRAA_INTEL_GT_TUCHUCK = 13,      /**< The Intel GT Tuchuck Board */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:53:5: note: previous definition of ‘MRAA_INTEL_GT_TUCHUCK’ was here
+     MRAA_INTEL_GT_TUCHUCK = 13,      /**< The Intel GT Tuchuck Board */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:56:5: error: redeclaration of enumerator ‘MRAA_FTDI_FT4222’
+     MRAA_FTDI_FT4222 = 256,         /**< FTDI FT4222 USB to i2c bridge */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:56:5: note: previous definition of ‘MRAA_FTDI_FT4222’ was here
+     MRAA_FTDI_FT4222 = 256,         /**< FTDI FT4222 USB to i2c bridge */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:59:5: error: redeclaration of enumerator ‘MRAA_GENERIC_FIRMATA’
+     MRAA_GENERIC_FIRMATA = 1280,    /**< Firmata uart platform/bridge */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:59:5: note: previous definition of ‘MRAA_GENERIC_FIRMATA’ was here
+     MRAA_GENERIC_FIRMATA = 1280,    /**< Firmata uart platform/bridge */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:61:5: error: redeclaration of enumerator ‘MRAA_MOCK_PLATFORM’
+     MRAA_MOCK_PLATFORM = 96,        /**< Mock platform, which requires no real hardware */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:61:5: note: previous definition of ‘MRAA_MOCK_PLATFORM’ was here
+     MRAA_MOCK_PLATFORM = 96,        /**< Mock platform, which requires no real hardware */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:62:5: error: redeclaration of enumerator ‘MRAA_JSON_PLATFORM’
+     MRAA_JSON_PLATFORM = 97,        /**< User initialised platform from json*/
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:62:5: note: previous definition of ‘MRAA_JSON_PLATFORM’ was here
+     MRAA_JSON_PLATFORM = 97,        /**< User initialised platform from json*/
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:63:5: error: redeclaration of enumerator ‘MRAA_NULL_PLATFORM’
+     MRAA_NULL_PLATFORM = 98,        /**< Platform with no capabilities that hosts a sub platform  */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:63:5: note: previous definition of ‘MRAA_NULL_PLATFORM’ was here
+     MRAA_NULL_PLATFORM = 98,        /**< Platform with no capabilities that hosts a sub platform  */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:64:5: error: redeclaration of enumerator ‘MRAA_UNKNOWN_PLATFORM’
+     MRAA_UNKNOWN_PLATFORM =
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:64:5: note: previous definition of ‘MRAA_UNKNOWN_PLATFORM’ was here
+     MRAA_UNKNOWN_PLATFORM =
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:66:3: error: conflicting types for ‘mraa_platform_t’
+ } mraa_platform_t;
+   ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:66:3: note: previous declaration of ‘mraa_platform_t’ was here
+ } mraa_platform_t;
+   ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:72:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J17_1’
+     MRAA_INTEL_EDISON_MINIBOARD_J17_1 = 0,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:72:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J17_1’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J17_1 = 0,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:73:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J17_5’
+     MRAA_INTEL_EDISON_MINIBOARD_J17_5 = 4,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:73:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J17_5’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J17_5 = 4,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:74:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J17_7’
+     MRAA_INTEL_EDISON_MINIBOARD_J17_7 = 6,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:74:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J17_7’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J17_7 = 6,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:75:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J17_8’
+     MRAA_INTEL_EDISON_MINIBOARD_J17_8 = 7,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:75:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J17_8’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J17_8 = 7,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:76:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J17_9’
+     MRAA_INTEL_EDISON_MINIBOARD_J17_9 = 8,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:76:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J17_9’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J17_9 = 8,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:77:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J17_10’
+     MRAA_INTEL_EDISON_MINIBOARD_J17_10 = 9,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:77:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J17_10’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J17_10 = 9,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:78:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J17_11’
+     MRAA_INTEL_EDISON_MINIBOARD_J17_11 = 10,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:78:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J17_11’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J17_11 = 10,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:79:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J17_12’
+     MRAA_INTEL_EDISON_MINIBOARD_J17_12 = 11,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:79:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J17_12’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J17_12 = 11,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:80:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J17_14’
+     MRAA_INTEL_EDISON_MINIBOARD_J17_14 = 13,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:80:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J17_14’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J17_14 = 13,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:81:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J18_1’
+     MRAA_INTEL_EDISON_MINIBOARD_J18_1 = 14,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:81:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J18_1’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J18_1 = 14,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:82:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J18_2’
+     MRAA_INTEL_EDISON_MINIBOARD_J18_2 = 15,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:82:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J18_2’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J18_2 = 15,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:83:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J18_6’
+     MRAA_INTEL_EDISON_MINIBOARD_J18_6 = 19,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:83:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J18_6’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J18_6 = 19,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:84:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J18_7’
+     MRAA_INTEL_EDISON_MINIBOARD_J18_7 = 20,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:84:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J18_7’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J18_7 = 20,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:85:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J18_8’
+     MRAA_INTEL_EDISON_MINIBOARD_J18_8 = 21,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:85:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J18_8’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J18_8 = 21,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:86:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J18_10’
+     MRAA_INTEL_EDISON_MINIBOARD_J18_10 = 23,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:86:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J18_10’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J18_10 = 23,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:87:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J18_11’
+     MRAA_INTEL_EDISON_MINIBOARD_J18_11 = 24,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:87:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J18_11’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J18_11 = 24,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:88:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J18_12’
+     MRAA_INTEL_EDISON_MINIBOARD_J18_12 = 25,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:88:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J18_12’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J18_12 = 25,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:89:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J18_13’
+     MRAA_INTEL_EDISON_MINIBOARD_J18_13 = 26,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:89:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J18_13’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J18_13 = 26,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:90:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J19_4’
+     MRAA_INTEL_EDISON_MINIBOARD_J19_4 = 31,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:90:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J19_4’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J19_4 = 31,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:91:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J19_5’
+     MRAA_INTEL_EDISON_MINIBOARD_J19_5 = 32,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:91:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J19_5’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J19_5 = 32,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:92:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J19_6’
+     MRAA_INTEL_EDISON_MINIBOARD_J19_6 = 33,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:92:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J19_6’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J19_6 = 33,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:93:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J19_8’
+     MRAA_INTEL_EDISON_MINIBOARD_J19_8 = 35,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:93:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J19_8’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J19_8 = 35,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:94:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J19_9’
+     MRAA_INTEL_EDISON_MINIBOARD_J19_9 = 36,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:94:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J19_9’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J19_9 = 36,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:95:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J19_10’
+     MRAA_INTEL_EDISON_MINIBOARD_J19_10 = 37,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:95:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J19_10’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J19_10 = 37,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:96:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J19_11’
+     MRAA_INTEL_EDISON_MINIBOARD_J19_11 = 38,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:96:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J19_11’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J19_11 = 38,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:97:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J19_12’
+     MRAA_INTEL_EDISON_MINIBOARD_J19_12 = 39,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:97:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J19_12’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J19_12 = 39,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:98:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J19_13’
+     MRAA_INTEL_EDISON_MINIBOARD_J19_13 = 40,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:98:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J19_13’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J19_13 = 40,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:99:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J19_14’
+     MRAA_INTEL_EDISON_MINIBOARD_J19_14 = 41,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:99:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J19_14’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J19_14 = 41,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:100:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J20_3’
+     MRAA_INTEL_EDISON_MINIBOARD_J20_3 = 44,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:100:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J20_3’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J20_3 = 44,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:101:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J20_4’
+     MRAA_INTEL_EDISON_MINIBOARD_J20_4 = 45,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:101:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J20_4’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J20_4 = 45,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:102:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J20_5’
+     MRAA_INTEL_EDISON_MINIBOARD_J20_5 = 46,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:102:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J20_5’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J20_5 = 46,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:103:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J20_6’
+     MRAA_INTEL_EDISON_MINIBOARD_J20_6 = 47,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:103:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J20_6’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J20_6 = 47,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:104:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J20_7’
+     MRAA_INTEL_EDISON_MINIBOARD_J20_7 = 48,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:104:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J20_7’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J20_7 = 48,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:105:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J20_8’
+     MRAA_INTEL_EDISON_MINIBOARD_J20_8 = 49,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:105:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J20_8’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J20_8 = 49,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:106:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J20_9’
+     MRAA_INTEL_EDISON_MINIBOARD_J20_9 = 50,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:106:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J20_9’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J20_9 = 50,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:107:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J20_10’
+     MRAA_INTEL_EDISON_MINIBOARD_J20_10 = 51,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:107:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J20_10’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J20_10 = 51,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:108:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J20_11’
+     MRAA_INTEL_EDISON_MINIBOARD_J20_11 = 52,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:108:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J20_11’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J20_11 = 52,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:109:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J20_12’
+     MRAA_INTEL_EDISON_MINIBOARD_J20_12 = 53,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:109:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J20_12’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J20_12 = 53,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:110:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J20_13’
+     MRAA_INTEL_EDISON_MINIBOARD_J20_13 = 54,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:110:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J20_13’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J20_13 = 54,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:111:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_MINIBOARD_J20_14’
+     MRAA_INTEL_EDISON_MINIBOARD_J20_14 = 55
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:111:5: note: previous definition of ‘MRAA_INTEL_EDISON_MINIBOARD_J20_14’ was here
+     MRAA_INTEL_EDISON_MINIBOARD_J20_14 = 55
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:112:3: error: conflicting types for ‘mraa_intel_edison_miniboard_t’
+ } mraa_intel_edison_miniboard_t;
+   ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:112:3: note: previous declaration of ‘mraa_intel_edison_miniboard_t’ was here
+ } mraa_intel_edison_miniboard_t;
+   ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:118:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP182’
+     MRAA_INTEL_EDISON_GP182 = 0,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:118:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP182’ was here
+     MRAA_INTEL_EDISON_GP182 = 0,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:119:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP135’
+     MRAA_INTEL_EDISON_GP135 = 4,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:119:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP135’ was here
+     MRAA_INTEL_EDISON_GP135 = 4,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:120:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP27’
+     MRAA_INTEL_EDISON_GP27 = 6,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:120:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP27’ was here
+     MRAA_INTEL_EDISON_GP27 = 6,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:121:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP20’
+     MRAA_INTEL_EDISON_GP20 = 7,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:121:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP20’ was here
+     MRAA_INTEL_EDISON_GP20 = 7,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:122:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP28’
+     MRAA_INTEL_EDISON_GP28 = 8,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:122:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP28’ was here
+     MRAA_INTEL_EDISON_GP28 = 8,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:123:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP111’
+     MRAA_INTEL_EDISON_GP111 = 0,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:123:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP111’ was here
+     MRAA_INTEL_EDISON_GP111 = 0,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:124:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP109’
+     MRAA_INTEL_EDISON_GP109 = 10,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:124:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP109’ was here
+     MRAA_INTEL_EDISON_GP109 = 10,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:125:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP115’
+     MRAA_INTEL_EDISON_GP115 = 11,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:125:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP115’ was here
+     MRAA_INTEL_EDISON_GP115 = 11,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:126:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP128’
+     MRAA_INTEL_EDISON_GP128 = 13,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:126:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP128’ was here
+     MRAA_INTEL_EDISON_GP128 = 13,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:127:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP13’
+     MRAA_INTEL_EDISON_GP13 = 14,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:127:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP13’ was here
+     MRAA_INTEL_EDISON_GP13 = 14,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:128:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP165’
+     MRAA_INTEL_EDISON_GP165 = 15,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:128:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP165’ was here
+     MRAA_INTEL_EDISON_GP165 = 15,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:129:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP19’
+     MRAA_INTEL_EDISON_GP19 = 19,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:129:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP19’ was here
+     MRAA_INTEL_EDISON_GP19 = 19,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:130:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP12’
+     MRAA_INTEL_EDISON_GP12 = 20,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:130:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP12’ was here
+     MRAA_INTEL_EDISON_GP12 = 20,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:131:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP183’
+     MRAA_INTEL_EDISON_GP183 = 21,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:131:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP183’ was here
+     MRAA_INTEL_EDISON_GP183 = 21,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:132:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP110’
+     MRAA_INTEL_EDISON_GP110 = 23,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:132:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP110’ was here
+     MRAA_INTEL_EDISON_GP110 = 23,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:133:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP114’
+     MRAA_INTEL_EDISON_GP114 = 24,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:133:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP114’ was here
+     MRAA_INTEL_EDISON_GP114 = 24,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:134:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP129’
+     MRAA_INTEL_EDISON_GP129 = 25,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:134:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP129’ was here
+     MRAA_INTEL_EDISON_GP129 = 25,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:135:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP130’
+     MRAA_INTEL_EDISON_GP130 = 26,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:135:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP130’ was here
+     MRAA_INTEL_EDISON_GP130 = 26,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:136:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP44’
+     MRAA_INTEL_EDISON_GP44 = 31,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:136:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP44’ was here
+     MRAA_INTEL_EDISON_GP44 = 31,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:137:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP46’
+     MRAA_INTEL_EDISON_GP46 = 32,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:137:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP46’ was here
+     MRAA_INTEL_EDISON_GP46 = 32,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:138:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP48’
+     MRAA_INTEL_EDISON_GP48 = 33,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:138:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP48’ was here
+     MRAA_INTEL_EDISON_GP48 = 33,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:139:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP131’
+     MRAA_INTEL_EDISON_GP131 = 35,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:139:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP131’ was here
+     MRAA_INTEL_EDISON_GP131 = 35,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:140:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP14’
+     MRAA_INTEL_EDISON_GP14 = 36,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:140:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP14’ was here
+     MRAA_INTEL_EDISON_GP14 = 36,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:141:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP40’
+     MRAA_INTEL_EDISON_GP40 = 37,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:141:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP40’ was here
+     MRAA_INTEL_EDISON_GP40 = 37,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:142:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP43’
+     MRAA_INTEL_EDISON_GP43 = 38,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:142:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP43’ was here
+     MRAA_INTEL_EDISON_GP43 = 38,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:143:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP77’
+     MRAA_INTEL_EDISON_GP77 = 39,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:143:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP77’ was here
+     MRAA_INTEL_EDISON_GP77 = 39,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:144:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP82’
+     MRAA_INTEL_EDISON_GP82 = 40,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:144:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP82’ was here
+     MRAA_INTEL_EDISON_GP82 = 40,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:145:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP83’
+     MRAA_INTEL_EDISON_GP83 = 41,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:145:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP83’ was here
+     MRAA_INTEL_EDISON_GP83 = 41,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:146:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP134’
+     MRAA_INTEL_EDISON_GP134 = 44,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:146:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP134’ was here
+     MRAA_INTEL_EDISON_GP134 = 44,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:147:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP45’
+     MRAA_INTEL_EDISON_GP45 = 45,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:147:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP45’ was here
+     MRAA_INTEL_EDISON_GP45 = 45,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:148:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP47’
+     MRAA_INTEL_EDISON_GP47 = 46,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:148:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP47’ was here
+     MRAA_INTEL_EDISON_GP47 = 46,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:149:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP49’
+     MRAA_INTEL_EDISON_GP49 = 47,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:149:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP49’ was here
+     MRAA_INTEL_EDISON_GP49 = 47,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:150:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP15’
+     MRAA_INTEL_EDISON_GP15 = 48,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:150:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP15’ was here
+     MRAA_INTEL_EDISON_GP15 = 48,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:151:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP84’
+     MRAA_INTEL_EDISON_GP84 = 49,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:151:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP84’ was here
+     MRAA_INTEL_EDISON_GP84 = 49,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:152:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP42’
+     MRAA_INTEL_EDISON_GP42 = 50,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:152:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP42’ was here
+     MRAA_INTEL_EDISON_GP42 = 50,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:153:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP41’
+     MRAA_INTEL_EDISON_GP41 = 51,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:153:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP41’ was here
+     MRAA_INTEL_EDISON_GP41 = 51,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:154:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP78’
+     MRAA_INTEL_EDISON_GP78 = 52,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:154:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP78’ was here
+     MRAA_INTEL_EDISON_GP78 = 52,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:155:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP79’
+     MRAA_INTEL_EDISON_GP79 = 53,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:155:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP79’ was here
+     MRAA_INTEL_EDISON_GP79 = 53,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:156:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP80’
+     MRAA_INTEL_EDISON_GP80 = 54,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:156:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP80’ was here
+     MRAA_INTEL_EDISON_GP80 = 54,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:157:5: error: redeclaration of enumerator ‘MRAA_INTEL_EDISON_GP81’
+     MRAA_INTEL_EDISON_GP81 = 55
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:157:5: note: previous definition of ‘MRAA_INTEL_EDISON_GP81’ was here
+     MRAA_INTEL_EDISON_GP81 = 55
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:158:3: error: conflicting types for ‘mraa_intel_edison_t’
+ } mraa_intel_edison_t;
+   ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:158:3: note: previous declaration of ‘mraa_intel_edison_t’ was here
+ } mraa_intel_edison_t;
+   ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:164:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN8’
+     MRAA_RASPBERRY_WIRING_PIN8 = 3,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:164:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN8’ was here
+     MRAA_RASPBERRY_WIRING_PIN8 = 3,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:165:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN9’
+     MRAA_RASPBERRY_WIRING_PIN9 = 5,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:165:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN9’ was here
+     MRAA_RASPBERRY_WIRING_PIN9 = 5,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:166:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN7’
+     MRAA_RASPBERRY_WIRING_PIN7 = 7,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:166:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN7’ was here
+     MRAA_RASPBERRY_WIRING_PIN7 = 7,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:167:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN15’
+     MRAA_RASPBERRY_WIRING_PIN15 = 8,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:167:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN15’ was here
+     MRAA_RASPBERRY_WIRING_PIN15 = 8,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:168:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN16’
+     MRAA_RASPBERRY_WIRING_PIN16 = 10,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:168:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN16’ was here
+     MRAA_RASPBERRY_WIRING_PIN16 = 10,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:169:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN0’
+     MRAA_RASPBERRY_WIRING_PIN0 = 11,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:169:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN0’ was here
+     MRAA_RASPBERRY_WIRING_PIN0 = 11,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:170:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN1’
+     MRAA_RASPBERRY_WIRING_PIN1 = 12,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:170:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN1’ was here
+     MRAA_RASPBERRY_WIRING_PIN1 = 12,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:171:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN2’
+     MRAA_RASPBERRY_WIRING_PIN2 = 13,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:171:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN2’ was here
+     MRAA_RASPBERRY_WIRING_PIN2 = 13,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:172:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN3’
+     MRAA_RASPBERRY_WIRING_PIN3 = 15,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:172:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN3’ was here
+     MRAA_RASPBERRY_WIRING_PIN3 = 15,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:173:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN4’
+     MRAA_RASPBERRY_WIRING_PIN4 = 16,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:173:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN4’ was here
+     MRAA_RASPBERRY_WIRING_PIN4 = 16,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:174:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN5’
+     MRAA_RASPBERRY_WIRING_PIN5 = 18,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:174:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN5’ was here
+     MRAA_RASPBERRY_WIRING_PIN5 = 18,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:175:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN12’
+     MRAA_RASPBERRY_WIRING_PIN12 = 19,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:175:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN12’ was here
+     MRAA_RASPBERRY_WIRING_PIN12 = 19,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:176:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN13’
+     MRAA_RASPBERRY_WIRING_PIN13 = 21,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:176:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN13’ was here
+     MRAA_RASPBERRY_WIRING_PIN13 = 21,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:177:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN6’
+     MRAA_RASPBERRY_WIRING_PIN6 = 22,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:177:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN6’ was here
+     MRAA_RASPBERRY_WIRING_PIN6 = 22,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:178:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN14’
+     MRAA_RASPBERRY_WIRING_PIN14 = 23,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:178:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN14’ was here
+     MRAA_RASPBERRY_WIRING_PIN14 = 23,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:179:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN10’
+     MRAA_RASPBERRY_WIRING_PIN10 = 24,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:179:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN10’ was here
+     MRAA_RASPBERRY_WIRING_PIN10 = 24,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:180:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN11’
+     MRAA_RASPBERRY_WIRING_PIN11 = 26,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:180:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN11’ was here
+     MRAA_RASPBERRY_WIRING_PIN11 = 26,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:181:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN17’
+     MRAA_RASPBERRY_WIRING_PIN17 = 29, // RPi B V2
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:181:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN17’ was here
+     MRAA_RASPBERRY_WIRING_PIN17 = 29, // RPi B V2
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:182:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN21’
+     MRAA_RASPBERRY_WIRING_PIN21 = 29,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:182:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN21’ was here
+     MRAA_RASPBERRY_WIRING_PIN21 = 29,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:183:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN18’
+     MRAA_RASPBERRY_WIRING_PIN18 = 30, // RPi B V2
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:183:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN18’ was here
+     MRAA_RASPBERRY_WIRING_PIN18 = 30, // RPi B V2
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:184:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN19’
+     MRAA_RASPBERRY_WIRING_PIN19 = 31, // RPI B V2
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:184:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN19’ was here
+     MRAA_RASPBERRY_WIRING_PIN19 = 31, // RPI B V2
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:185:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN22’
+     MRAA_RASPBERRY_WIRING_PIN22 = 31,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:185:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN22’ was here
+     MRAA_RASPBERRY_WIRING_PIN22 = 31,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:186:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN20’
+     MRAA_RASPBERRY_WIRING_PIN20 = 32, // RPi B V2
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:186:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN20’ was here
+     MRAA_RASPBERRY_WIRING_PIN20 = 32, // RPi B V2
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:187:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN26’
+     MRAA_RASPBERRY_WIRING_PIN26 = 32,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:187:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN26’ was here
+     MRAA_RASPBERRY_WIRING_PIN26 = 32,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:188:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN23’
+     MRAA_RASPBERRY_WIRING_PIN23 = 33,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:188:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN23’ was here
+     MRAA_RASPBERRY_WIRING_PIN23 = 33,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:189:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN24’
+     MRAA_RASPBERRY_WIRING_PIN24 = 35,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:189:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN24’ was here
+     MRAA_RASPBERRY_WIRING_PIN24 = 35,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:190:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN27’
+     MRAA_RASPBERRY_WIRING_PIN27 = 36,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:190:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN27’ was here
+     MRAA_RASPBERRY_WIRING_PIN27 = 36,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:191:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN25’
+     MRAA_RASPBERRY_WIRING_PIN25 = 37,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:191:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN25’ was here
+     MRAA_RASPBERRY_WIRING_PIN25 = 37,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:192:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN28’
+     MRAA_RASPBERRY_WIRING_PIN28 = 38,
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:192:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN28’ was here
+     MRAA_RASPBERRY_WIRING_PIN28 = 38,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:193:5: error: redeclaration of enumerator ‘MRAA_RASPBERRY_WIRING_PIN29’
+     MRAA_RASPBERRY_WIRING_PIN29 = 40
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:193:5: note: previous definition of ‘MRAA_RASPBERRY_WIRING_PIN29’ was here
+     MRAA_RASPBERRY_WIRING_PIN29 = 40
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:194:3: error: conflicting types for ‘mraa_raspberry_wiring_t’
+ } mraa_raspberry_wiring_t;
+   ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:194:3: note: previous declaration of ‘mraa_raspberry_wiring_t’ was here
+ } mraa_raspberry_wiring_t;
+   ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:200:5: error: redeclaration of enumerator ‘MRAA_SUCCESS’
+     MRAA_SUCCESS = 0,                             /**< Expected response */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:200:5: note: previous definition of ‘MRAA_SUCCESS’ was here
+     MRAA_SUCCESS = 0,                             /**< Expected response */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:201:5: error: redeclaration of enumerator ‘MRAA_ERROR_FEATURE_NOT_IMPLEMENTED’
+     MRAA_ERROR_FEATURE_NOT_IMPLEMENTED = 1,       /**< Feature TODO */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:201:5: note: previous definition of ‘MRAA_ERROR_FEATURE_NOT_IMPLEMENTED’ was here
+     MRAA_ERROR_FEATURE_NOT_IMPLEMENTED = 1,       /**< Feature TODO */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:202:5: error: redeclaration of enumerator ‘MRAA_ERROR_FEATURE_NOT_SUPPORTED’
+     MRAA_ERROR_FEATURE_NOT_SUPPORTED = 2,         /**< Feature not supported by HW */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:202:5: note: previous definition of ‘MRAA_ERROR_FEATURE_NOT_SUPPORTED’ was here
+     MRAA_ERROR_FEATURE_NOT_SUPPORTED = 2,         /**< Feature not supported by HW */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:203:5: error: redeclaration of enumerator ‘MRAA_ERROR_INVALID_VERBOSITY_LEVEL’
+     MRAA_ERROR_INVALID_VERBOSITY_LEVEL = 3,       /**< Verbosity level wrong */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:203:5: note: previous definition of ‘MRAA_ERROR_INVALID_VERBOSITY_LEVEL’ was here
+     MRAA_ERROR_INVALID_VERBOSITY_LEVEL = 3,       /**< Verbosity level wrong */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:204:5: error: redeclaration of enumerator ‘MRAA_ERROR_INVALID_PARAMETER’
+     MRAA_ERROR_INVALID_PARAMETER = 4,             /**< Parameter invalid */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:204:5: note: previous definition of ‘MRAA_ERROR_INVALID_PARAMETER’ was here
+     MRAA_ERROR_INVALID_PARAMETER = 4,             /**< Parameter invalid */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:205:5: error: redeclaration of enumerator ‘MRAA_ERROR_INVALID_HANDLE’
+     MRAA_ERROR_INVALID_HANDLE = 5,                /**< Handle invalid */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:205:5: note: previous definition of ‘MRAA_ERROR_INVALID_HANDLE’ was here
+     MRAA_ERROR_INVALID_HANDLE = 5,                /**< Handle invalid */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:206:5: error: redeclaration of enumerator ‘MRAA_ERROR_NO_RESOURCES’
+     MRAA_ERROR_NO_RESOURCES = 6,                  /**< No resource of that type avail */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:206:5: note: previous definition of ‘MRAA_ERROR_NO_RESOURCES’ was here
+     MRAA_ERROR_NO_RESOURCES = 6,                  /**< No resource of that type avail */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:207:5: error: redeclaration of enumerator ‘MRAA_ERROR_INVALID_RESOURCE’
+     MRAA_ERROR_INVALID_RESOURCE = 7,              /**< Resource invalid */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:207:5: note: previous definition of ‘MRAA_ERROR_INVALID_RESOURCE’ was here
+     MRAA_ERROR_INVALID_RESOURCE = 7,              /**< Resource invalid */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:208:5: error: redeclaration of enumerator ‘MRAA_ERROR_INVALID_QUEUE_TYPE’
+     MRAA_ERROR_INVALID_QUEUE_TYPE = 8,            /**< Queue type incorrect */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:208:5: note: previous definition of ‘MRAA_ERROR_INVALID_QUEUE_TYPE’ was here
+     MRAA_ERROR_INVALID_QUEUE_TYPE = 8,            /**< Queue type incorrect */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:209:5: error: redeclaration of enumerator ‘MRAA_ERROR_NO_DATA_AVAILABLE’
+     MRAA_ERROR_NO_DATA_AVAILABLE = 9,             /**< No data available */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:209:5: note: previous definition of ‘MRAA_ERROR_NO_DATA_AVAILABLE’ was here
+     MRAA_ERROR_NO_DATA_AVAILABLE = 9,             /**< No data available */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:210:5: error: redeclaration of enumerator ‘MRAA_ERROR_INVALID_PLATFORM’
+     MRAA_ERROR_INVALID_PLATFORM = 10,             /**< Platform not recognised */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:210:5: note: previous definition of ‘MRAA_ERROR_INVALID_PLATFORM’ was here
+     MRAA_ERROR_INVALID_PLATFORM = 10,             /**< Platform not recognised */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:211:5: error: redeclaration of enumerator ‘MRAA_ERROR_PLATFORM_NOT_INITIALISED’
+     MRAA_ERROR_PLATFORM_NOT_INITIALISED = 11,     /**< Board information not initialised */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:211:5: note: previous definition of ‘MRAA_ERROR_PLATFORM_NOT_INITIALISED’ was here
+     MRAA_ERROR_PLATFORM_NOT_INITIALISED = 11,     /**< Board information not initialised */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:212:5: error: redeclaration of enumerator ‘MRAA_ERROR_UART_OW_SHORTED’
+     MRAA_ERROR_UART_OW_SHORTED = 12,              /**< UART OW Short Circuit Detected*/
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:212:5: note: previous definition of ‘MRAA_ERROR_UART_OW_SHORTED’ was here
+     MRAA_ERROR_UART_OW_SHORTED = 12,              /**< UART OW Short Circuit Detected*/
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:213:5: error: redeclaration of enumerator ‘MRAA_ERROR_UART_OW_NO_DEVICES’
+     MRAA_ERROR_UART_OW_NO_DEVICES = 13,           /**< UART OW No devices detected */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:213:5: note: previous definition of ‘MRAA_ERROR_UART_OW_NO_DEVICES’ was here
+     MRAA_ERROR_UART_OW_NO_DEVICES = 13,           /**< UART OW No devices detected */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:214:5: error: redeclaration of enumerator ‘MRAA_ERROR_UART_OW_DATA_ERROR’
+     MRAA_ERROR_UART_OW_DATA_ERROR = 14,           /**< UART OW Data/Bus error detected */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:214:5: note: previous definition of ‘MRAA_ERROR_UART_OW_DATA_ERROR’ was here
+     MRAA_ERROR_UART_OW_DATA_ERROR = 14,           /**< UART OW Data/Bus error detected */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:216:5: error: redeclaration of enumerator ‘MRAA_ERROR_UNSPECIFIED’
+     MRAA_ERROR_UNSPECIFIED = 99 /**< Unknown Error */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:216:5: note: previous definition of ‘MRAA_ERROR_UNSPECIFIED’ was here
+     MRAA_ERROR_UNSPECIFIED = 99 /**< Unknown Error */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:217:3: error: conflicting types for ‘mraa_result_t’
+ } mraa_result_t;
+   ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:217:3: note: previous declaration of ‘mraa_result_t’ was here
+ } mraa_result_t;
+   ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:223:5: error: redeclaration of enumerator ‘MRAA_PIN_VALID’
+     MRAA_PIN_VALID = 0,     /**< Pin Valid */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:223:5: note: previous definition of ‘MRAA_PIN_VALID’ was here
+     MRAA_PIN_VALID = 0,     /**< Pin Valid */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:224:5: error: redeclaration of enumerator ‘MRAA_PIN_GPIO’
+     MRAA_PIN_GPIO = 1,      /**< General Purpose IO */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:224:5: note: previous definition of ‘MRAA_PIN_GPIO’ was here
+     MRAA_PIN_GPIO = 1,      /**< General Purpose IO */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:225:5: error: redeclaration of enumerator ‘MRAA_PIN_PWM’
+     MRAA_PIN_PWM = 2,       /**< Pulse Width Modulation */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:225:5: note: previous definition of ‘MRAA_PIN_PWM’ was here
+     MRAA_PIN_PWM = 2,       /**< Pulse Width Modulation */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:226:5: error: redeclaration of enumerator ‘MRAA_PIN_FAST_GPIO’
+     MRAA_PIN_FAST_GPIO = 3, /**< Faster GPIO */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:226:5: note: previous definition of ‘MRAA_PIN_FAST_GPIO’ was here
+     MRAA_PIN_FAST_GPIO = 3, /**< Faster GPIO */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:227:5: error: redeclaration of enumerator ‘MRAA_PIN_SPI’
+     MRAA_PIN_SPI = 4,       /**< SPI */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:227:5: note: previous definition of ‘MRAA_PIN_SPI’ was here
+     MRAA_PIN_SPI = 4,       /**< SPI */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:228:5: error: redeclaration of enumerator ‘MRAA_PIN_I2C’
+     MRAA_PIN_I2C = 5,       /**< I2C */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:228:5: note: previous definition of ‘MRAA_PIN_I2C’ was here
+     MRAA_PIN_I2C = 5,       /**< I2C */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:229:5: error: redeclaration of enumerator ‘MRAA_PIN_AIO’
+     MRAA_PIN_AIO = 6,       /**< Analog in */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:229:5: note: previous definition of ‘MRAA_PIN_AIO’ was here
+     MRAA_PIN_AIO = 6,       /**< Analog in */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:230:5: error: redeclaration of enumerator ‘MRAA_PIN_UART’
+     MRAA_PIN_UART = 7       /**< UART */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:230:5: note: previous definition of ‘MRAA_PIN_UART’ was here
+     MRAA_PIN_UART = 7       /**< UART */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:231:3: error: conflicting types for ‘mraa_pinmodes_t’
+ } mraa_pinmodes_t;
+   ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:231:3: note: previous declaration of ‘mraa_pinmodes_t’ was here
+ } mraa_pinmodes_t;
+   ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:237:5: error: redeclaration of enumerator ‘MRAA_I2C_STD’
+     MRAA_I2C_STD = 0,  /**< up to 100Khz */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:237:5: note: previous definition of ‘MRAA_I2C_STD’ was here
+     MRAA_I2C_STD = 0,  /**< up to 100Khz */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:238:5: error: redeclaration of enumerator ‘MRAA_I2C_FAST’
+     MRAA_I2C_FAST = 1, /**< up to 400Khz */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:238:5: note: previous definition of ‘MRAA_I2C_FAST’ was here
+     MRAA_I2C_FAST = 1, /**< up to 400Khz */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:239:5: error: redeclaration of enumerator ‘MRAA_I2C_HIGH’
+     MRAA_I2C_HIGH = 2  /**< up to 3.4Mhz */
+     ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:239:5: note: previous definition of ‘MRAA_I2C_HIGH’ was here
+     MRAA_I2C_HIGH = 2  /**< up to 3.4Mhz */
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:240:3: error: conflicting types for ‘mraa_i2c_mode_t’
+ } mraa_i2c_mode_t;
+   ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:240:3: note: previous declaration of ‘mraa_i2c_mode_t’ was here
+ } mraa_i2c_mode_t;
+   ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:243:2: error: redeclaration of enumerator ‘MRAA_UART_PARITY_NONE’
+  MRAA_UART_PARITY_NONE = 0,
+  ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:243:5: note: previous definition of ‘MRAA_UART_PARITY_NONE’ was here
+     MRAA_UART_PARITY_NONE = 0,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:244:2: error: redeclaration of enumerator ‘MRAA_UART_PARITY_EVEN’
+  MRAA_UART_PARITY_EVEN = 1,
+  ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:244:5: note: previous definition of ‘MRAA_UART_PARITY_EVEN’ was here
+     MRAA_UART_PARITY_EVEN = 1,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:245:2: error: redeclaration of enumerator ‘MRAA_UART_PARITY_ODD’
+  MRAA_UART_PARITY_ODD = 2,
+  ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:245:5: note: previous definition of ‘MRAA_UART_PARITY_ODD’ was here
+     MRAA_UART_PARITY_ODD = 2,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:246:2: error: redeclaration of enumerator ‘MRAA_UART_PARITY_MARK’
+  MRAA_UART_PARITY_MARK = 3,
+  ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:246:5: note: previous definition of ‘MRAA_UART_PARITY_MARK’ was here
+     MRAA_UART_PARITY_MARK = 3,
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:247:2: error: redeclaration of enumerator ‘MRAA_UART_PARITY_SPACE’
+  MRAA_UART_PARITY_SPACE = 4
+  ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:247:5: note: previous definition of ‘MRAA_UART_PARITY_SPACE’ was here
+     MRAA_UART_PARITY_SPACE = 4
+     ^
+In file included from /home/aravind/git/mraa/api/mraa/common.h:30:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:34,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/types.h:248:3: error: conflicting types for ‘mraa_uart_parity_t’
+ } mraa_uart_parity_t;
+   ^
+In file included from /usr/include/mraa/common.h:28:0,
+                 from /usr/include/mraa/pwm.h:46,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/types.h:248:3: note: previous declaration of ‘mraa_uart_parity_t’ was here
+ } mraa_uart_parity_t;
+   ^
+In file included from /home/aravind/git/mraa/include/mraa_internal.h:34:0,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:80:15: error: conflicting types for ‘mraa_init’
+ mraa_result_t mraa_init() __attribute__((constructor));
+               ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:78:15: note: previous declaration of ‘mraa_init’ was here
+ mraa_result_t mraa_init() __attribute__((constructor));
+               ^
+In file included from /home/aravind/git/mraa/include/mraa_internal.h:34:0,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:99:16: error: conflicting types for ‘mraa_pin_mode_test’
+ mraa_boolean_t mraa_pin_mode_test(int pin, mraa_pinmodes_t mode);
+                ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:97:16: note: previous declaration of ‘mraa_pin_mode_test’ was here
+ mraa_boolean_t mraa_pin_mode_test(int pin, mraa_pinmodes_t mode);
+                ^
+In file included from /home/aravind/git/mraa/include/mraa_internal.h:34:0,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:137:15: error: conflicting types for ‘mraa_set_log_level’
+ mraa_result_t mraa_set_log_level(int level);
+               ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:135:15: note: previous declaration of ‘mraa_set_log_level’ was here
+ mraa_result_t mraa_set_log_level(int level);
+               ^
+In file included from /home/aravind/git/mraa/include/mraa_internal.h:34:0,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:181:6: error: conflicting types for ‘mraa_result_print’
+ void mraa_result_print(mraa_result_t result);
+      ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:179:6: note: previous declaration of ‘mraa_result_print’ was here
+ void mraa_result_print(mraa_result_t result);
+      ^
+In file included from /home/aravind/git/mraa/include/mraa_internal.h:34:0,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:188:17: error: conflicting types for ‘mraa_get_platform_type’
+ mraa_platform_t mraa_get_platform_type();
+                 ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:186:17: note: previous declaration of ‘mraa_get_platform_type’ was here
+ mraa_platform_t mraa_get_platform_type();
+                 ^
+In file included from /home/aravind/git/mraa/include/mraa_internal.h:34:0,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:288:15: error: conflicting types for ‘mraa_add_subplatform’
+ mraa_result_t mraa_add_subplatform(mraa_platform_t subplatformtype, const char* uart_dev);
+               ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:286:15: note: previous declaration of ‘mraa_add_subplatform’ was here
+ mraa_result_t mraa_add_subplatform(mraa_platform_t subplatformtype, const char* uart_dev);
+               ^
+In file included from /home/aravind/git/mraa/include/mraa_internal.h:34:0,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:297:15: error: conflicting types for ‘mraa_remove_subplatform’
+ mraa_result_t mraa_remove_subplatform(mraa_platform_t subplatformtype);
+               ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:295:15: note: previous declaration of ‘mraa_remove_subplatform’ was here
+ mraa_result_t mraa_remove_subplatform(mraa_platform_t subplatformtype);
+               ^
+In file included from /home/aravind/git/mraa/include/mraa_internal.h:34:0,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:320:15: error: conflicting types for ‘mraa_init_json_platform’
+ mraa_result_t mraa_init_json_platform(const char* path);
+               ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:318:15: note: previous declaration of ‘mraa_init_json_platform’ was here
+ mraa_result_t mraa_init_json_platform(const char* path);
+               ^
+In file included from /home/aravind/git/mraa/include/mraa_internal_types.h:28:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:80:15: error: conflicting types for ‘mraa_init’
+ mraa_result_t mraa_init() __attribute__((constructor));
+               ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:78:15: note: previous declaration of ‘mraa_init’ was here
+ mraa_result_t mraa_init() __attribute__((constructor));
+               ^
+In file included from /home/aravind/git/mraa/include/mraa_internal_types.h:28:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:99:16: error: conflicting types for ‘mraa_pin_mode_test’
+ mraa_boolean_t mraa_pin_mode_test(int pin, mraa_pinmodes_t mode);
+                ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:97:16: note: previous declaration of ‘mraa_pin_mode_test’ was here
+ mraa_boolean_t mraa_pin_mode_test(int pin, mraa_pinmodes_t mode);
+                ^
+In file included from /home/aravind/git/mraa/include/mraa_internal_types.h:28:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:137:15: error: conflicting types for ‘mraa_set_log_level’
+ mraa_result_t mraa_set_log_level(int level);
+               ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:135:15: note: previous declaration of ‘mraa_set_log_level’ was here
+ mraa_result_t mraa_set_log_level(int level);
+               ^
+In file included from /home/aravind/git/mraa/include/mraa_internal_types.h:28:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:181:6: error: conflicting types for ‘mraa_result_print’
+ void mraa_result_print(mraa_result_t result);
+      ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:179:6: note: previous declaration of ‘mraa_result_print’ was here
+ void mraa_result_print(mraa_result_t result);
+      ^
+In file included from /home/aravind/git/mraa/include/mraa_internal_types.h:28:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:188:17: error: conflicting types for ‘mraa_get_platform_type’
+ mraa_platform_t mraa_get_platform_type();
+                 ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:186:17: note: previous declaration of ‘mraa_get_platform_type’ was here
+ mraa_platform_t mraa_get_platform_type();
+                 ^
+In file included from /home/aravind/git/mraa/include/mraa_internal_types.h:28:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:288:15: error: conflicting types for ‘mraa_add_subplatform’
+ mraa_result_t mraa_add_subplatform(mraa_platform_t subplatformtype, const char* uart_dev);
+               ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:286:15: note: previous declaration of ‘mraa_add_subplatform’ was here
+ mraa_result_t mraa_add_subplatform(mraa_platform_t subplatformtype, const char* uart_dev);
+               ^
+In file included from /home/aravind/git/mraa/include/mraa_internal_types.h:28:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:297:15: error: conflicting types for ‘mraa_remove_subplatform’
+ mraa_result_t mraa_remove_subplatform(mraa_platform_t subplatformtype);
+               ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:295:15: note: previous declaration of ‘mraa_remove_subplatform’ was here
+ mraa_result_t mraa_remove_subplatform(mraa_platform_t subplatformtype);
+               ^
+In file included from /home/aravind/git/mraa/include/mraa_internal_types.h:28:0,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:320:15: error: conflicting types for ‘mraa_init_json_platform’
+ mraa_result_t mraa_init_json_platform(const char* path);
+               ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:318:15: note: previous declaration of ‘mraa_init_json_platform’ was here
+ mraa_result_t mraa_init_json_platform(const char* path);
+               ^
+In file included from /home/aravind/git/mraa/include/mraa_adv_func.h:27:0,
+                 from /home/aravind/git/mraa/include/mraa_internal_types.h:30,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:80:15: error: conflicting types for ‘mraa_init’
+ mraa_result_t mraa_init() __attribute__((constructor));
+               ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:78:15: note: previous declaration of ‘mraa_init’ was here
+ mraa_result_t mraa_init() __attribute__((constructor));
+               ^
+In file included from /home/aravind/git/mraa/include/mraa_adv_func.h:27:0,
+                 from /home/aravind/git/mraa/include/mraa_internal_types.h:30,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:99:16: error: conflicting types for ‘mraa_pin_mode_test’
+ mraa_boolean_t mraa_pin_mode_test(int pin, mraa_pinmodes_t mode);
+                ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:97:16: note: previous declaration of ‘mraa_pin_mode_test’ was here
+ mraa_boolean_t mraa_pin_mode_test(int pin, mraa_pinmodes_t mode);
+                ^
+In file included from /home/aravind/git/mraa/include/mraa_adv_func.h:27:0,
+                 from /home/aravind/git/mraa/include/mraa_internal_types.h:30,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:137:15: error: conflicting types for ‘mraa_set_log_level’
+ mraa_result_t mraa_set_log_level(int level);
+               ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:135:15: note: previous declaration of ‘mraa_set_log_level’ was here
+ mraa_result_t mraa_set_log_level(int level);
+               ^
+In file included from /home/aravind/git/mraa/include/mraa_adv_func.h:27:0,
+                 from /home/aravind/git/mraa/include/mraa_internal_types.h:30,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:181:6: error: conflicting types for ‘mraa_result_print’
+ void mraa_result_print(mraa_result_t result);
+      ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:179:6: note: previous declaration of ‘mraa_result_print’ was here
+ void mraa_result_print(mraa_result_t result);
+      ^
+In file included from /home/aravind/git/mraa/include/mraa_adv_func.h:27:0,
+                 from /home/aravind/git/mraa/include/mraa_internal_types.h:30,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:188:17: error: conflicting types for ‘mraa_get_platform_type’
+ mraa_platform_t mraa_get_platform_type();
+                 ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:186:17: note: previous declaration of ‘mraa_get_platform_type’ was here
+ mraa_platform_t mraa_get_platform_type();
+                 ^
+In file included from /home/aravind/git/mraa/include/mraa_adv_func.h:27:0,
+                 from /home/aravind/git/mraa/include/mraa_internal_types.h:30,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:288:15: error: conflicting types for ‘mraa_add_subplatform’
+ mraa_result_t mraa_add_subplatform(mraa_platform_t subplatformtype, const char* uart_dev);
+               ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:286:15: note: previous declaration of ‘mraa_add_subplatform’ was here
+ mraa_result_t mraa_add_subplatform(mraa_platform_t subplatformtype, const char* uart_dev);
+               ^
+In file included from /home/aravind/git/mraa/include/mraa_adv_func.h:27:0,
+                 from /home/aravind/git/mraa/include/mraa_internal_types.h:30,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:297:15: error: conflicting types for ‘mraa_remove_subplatform’
+ mraa_result_t mraa_remove_subplatform(mraa_platform_t subplatformtype);
+               ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:295:15: note: previous declaration of ‘mraa_remove_subplatform’ was here
+ mraa_result_t mraa_remove_subplatform(mraa_platform_t subplatformtype);
+               ^
+In file included from /home/aravind/git/mraa/include/mraa_adv_func.h:27:0,
+                 from /home/aravind/git/mraa/include/mraa_internal_types.h:30,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:320:15: error: conflicting types for ‘mraa_init_json_platform’
+ mraa_result_t mraa_init_json_platform(const char* path);
+               ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:318:15: note: previous declaration of ‘mraa_init_json_platform’ was here
+ mraa_result_t mraa_init_json_platform(const char* path);
+               ^
+In file included from /home/aravind/git/mraa/api/mraa/iio.h:27:0,
+                 from /home/aravind/git/mraa/include/mraa_internal_types.h:31,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:80:15: error: conflicting types for ‘mraa_init’
+ mraa_result_t mraa_init() __attribute__((constructor));
+               ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:78:15: note: previous declaration of ‘mraa_init’ was here
+ mraa_result_t mraa_init() __attribute__((constructor));
+               ^
+In file included from /home/aravind/git/mraa/api/mraa/iio.h:27:0,
+                 from /home/aravind/git/mraa/include/mraa_internal_types.h:31,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:99:16: error: conflicting types for ‘mraa_pin_mode_test’
+ mraa_boolean_t mraa_pin_mode_test(int pin, mraa_pinmodes_t mode);
+                ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:97:16: note: previous declaration of ‘mraa_pin_mode_test’ was here
+ mraa_boolean_t mraa_pin_mode_test(int pin, mraa_pinmodes_t mode);
+                ^
+In file included from /home/aravind/git/mraa/api/mraa/iio.h:27:0,
+                 from /home/aravind/git/mraa/include/mraa_internal_types.h:31,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:137:15: error: conflicting types for ‘mraa_set_log_level’
+ mraa_result_t mraa_set_log_level(int level);
+               ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:135:15: note: previous declaration of ‘mraa_set_log_level’ was here
+ mraa_result_t mraa_set_log_level(int level);
+               ^
+In file included from /home/aravind/git/mraa/api/mraa/iio.h:27:0,
+                 from /home/aravind/git/mraa/include/mraa_internal_types.h:31,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:181:6: error: conflicting types for ‘mraa_result_print’
+ void mraa_result_print(mraa_result_t result);
+      ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:179:6: note: previous declaration of ‘mraa_result_print’ was here
+ void mraa_result_print(mraa_result_t result);
+      ^
+In file included from /home/aravind/git/mraa/api/mraa/iio.h:27:0,
+                 from /home/aravind/git/mraa/include/mraa_internal_types.h:31,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:188:17: error: conflicting types for ‘mraa_get_platform_type’
+ mraa_platform_t mraa_get_platform_type();
+                 ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:186:17: note: previous declaration of ‘mraa_get_platform_type’ was here
+ mraa_platform_t mraa_get_platform_type();
+                 ^
+In file included from /home/aravind/git/mraa/api/mraa/iio.h:27:0,
+                 from /home/aravind/git/mraa/include/mraa_internal_types.h:31,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:288:15: error: conflicting types for ‘mraa_add_subplatform’
+ mraa_result_t mraa_add_subplatform(mraa_platform_t subplatformtype, const char* uart_dev);
+               ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:286:15: note: previous declaration of ‘mraa_add_subplatform’ was here
+ mraa_result_t mraa_add_subplatform(mraa_platform_t subplatformtype, const char* uart_dev);
+               ^
+In file included from /home/aravind/git/mraa/api/mraa/iio.h:27:0,
+                 from /home/aravind/git/mraa/include/mraa_internal_types.h:31,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:297:15: error: conflicting types for ‘mraa_remove_subplatform’
+ mraa_result_t mraa_remove_subplatform(mraa_platform_t subplatformtype);
+               ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:295:15: note: previous declaration of ‘mraa_remove_subplatform’ was here
+ mraa_result_t mraa_remove_subplatform(mraa_platform_t subplatformtype);
+               ^
+In file included from /home/aravind/git/mraa/api/mraa/iio.h:27:0,
+                 from /home/aravind/git/mraa/include/mraa_internal_types.h:31,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:320:15: error: conflicting types for ‘mraa_init_json_platform’
+ mraa_result_t mraa_init_json_platform(const char* path);
+               ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:318:15: note: previous declaration of ‘mraa_init_json_platform’ was here
+ mraa_result_t mraa_init_json_platform(const char* path);
+               ^
+In file included from /home/aravind/git/mraa/api/mraa/iio.h:67:0,
+                 from /home/aravind/git/mraa/include/mraa_internal_types.h:31,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:80:15: error: conflicting types for ‘mraa_init’
+ mraa_result_t mraa_init() __attribute__((constructor));
+               ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:78:15: note: previous declaration of ‘mraa_init’ was here
+ mraa_result_t mraa_init() __attribute__((constructor));
+               ^
+In file included from /home/aravind/git/mraa/api/mraa/iio.h:67:0,
+                 from /home/aravind/git/mraa/include/mraa_internal_types.h:31,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:99:16: error: conflicting types for ‘mraa_pin_mode_test’
+ mraa_boolean_t mraa_pin_mode_test(int pin, mraa_pinmodes_t mode);
+                ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:97:16: note: previous declaration of ‘mraa_pin_mode_test’ was here
+ mraa_boolean_t mraa_pin_mode_test(int pin, mraa_pinmodes_t mode);
+                ^
+In file included from /home/aravind/git/mraa/api/mraa/iio.h:67:0,
+                 from /home/aravind/git/mraa/include/mraa_internal_types.h:31,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:137:15: error: conflicting types for ‘mraa_set_log_level’
+ mraa_result_t mraa_set_log_level(int level);
+               ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:135:15: note: previous declaration of ‘mraa_set_log_level’ was here
+ mraa_result_t mraa_set_log_level(int level);
+               ^
+In file included from /home/aravind/git/mraa/api/mraa/iio.h:67:0,
+                 from /home/aravind/git/mraa/include/mraa_internal_types.h:31,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:181:6: error: conflicting types for ‘mraa_result_print’
+ void mraa_result_print(mraa_result_t result);
+      ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:179:6: note: previous declaration of ‘mraa_result_print’ was here
+ void mraa_result_print(mraa_result_t result);
+      ^
+In file included from /home/aravind/git/mraa/api/mraa/iio.h:67:0,
+                 from /home/aravind/git/mraa/include/mraa_internal_types.h:31,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:188:17: error: conflicting types for ‘mraa_get_platform_type’
+ mraa_platform_t mraa_get_platform_type();
+                 ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:186:17: note: previous declaration of ‘mraa_get_platform_type’ was here
+ mraa_platform_t mraa_get_platform_type();
+                 ^
+In file included from /home/aravind/git/mraa/api/mraa/iio.h:67:0,
+                 from /home/aravind/git/mraa/include/mraa_internal_types.h:31,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:288:15: error: conflicting types for ‘mraa_add_subplatform’
+ mraa_result_t mraa_add_subplatform(mraa_platform_t subplatformtype, const char* uart_dev);
+               ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:286:15: note: previous declaration of ‘mraa_add_subplatform’ was here
+ mraa_result_t mraa_add_subplatform(mraa_platform_t subplatformtype, const char* uart_dev);
+               ^
+In file included from /home/aravind/git/mraa/api/mraa/iio.h:67:0,
+                 from /home/aravind/git/mraa/include/mraa_internal_types.h:31,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:297:15: error: conflicting types for ‘mraa_remove_subplatform’
+ mraa_result_t mraa_remove_subplatform(mraa_platform_t subplatformtype);
+               ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:295:15: note: previous declaration of ‘mraa_remove_subplatform’ was here
+ mraa_result_t mraa_remove_subplatform(mraa_platform_t subplatformtype);
+               ^
+In file included from /home/aravind/git/mraa/api/mraa/iio.h:67:0,
+                 from /home/aravind/git/mraa/include/mraa_internal_types.h:31,
+                 from /home/aravind/git/mraa/include/mraa_internal.h:35,
+                 from /home/aravind/git/mraa/include/x86/intel_edison_fab_c.h:31,
+                 from i2c_firmata.c:26:
+/home/aravind/git/mraa/api/mraa/common.h:320:15: error: conflicting types for ‘mraa_init_json_platform’
+ mraa_result_t mraa_init_json_platform(const char* path);
+               ^
+In file included from /usr/include/mraa/pwm.h:46:0,
+                 from /usr/include/mraa.h:30,
+                 from i2c_firmata.c:24:
+/usr/include/mraa/common.h:318:15: note: previous declaration of ‘mraa_init_json_platform’ was here
+ mraa_result_t mraa_init_json_platform(const char* path);
+               ^
+make: *** [all] Error 1
