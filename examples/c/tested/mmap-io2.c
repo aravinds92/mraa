@@ -25,23 +25,38 @@
 #include "stdio.h"
 #include <unistd.h>
 
-#include "mraa.h"
+//  #include "mraa.h"
+
+
+#include <stdio.h>
+#include <time.h>
 
 int
 main(int argc, char** argv)
 {
     //! [Interesting]
-    fprintf(stdout, "hello mraa\n Version: %s\n", mraa_get_version());
-    mraa_gpio_context gpio;
-    gpio = mraa_gpio_init(2);
+    //fprintf(stdout, "hello mraa\n Version: %s\n", mraa_get_version());
+    //mraa_gpio_context gpio;
+    struct timespec tim, tim2;
+    //gpio = mraa_gpio_init(8);
+    //int n = mraa_gpio_dir(gpio, MRAA_GPIO_OUT);
+    //mraa_gpio_use_mmaped(gpio, 1);
+    tim.tv_sec = 0;
+    tim.tv_nsec = 500;
 
-    mraa_gpio_use_mmaped(gpio, 1);
+
 
     for (;;) {
-        mraa_gpio_write(gpio, 1);
-        usleep(50000);
-        mraa_gpio_write(gpio, 0);
-        usleep(50000);
+        //mraa_gpio_write(gpio, 1);
+        printf("On\n");
+        if(nanosleep(&tim , NULL) < 0 )   
+        {
+            printf("Nano sleep system call failed \n");
+            return -1;
+        }
+        //mraa_gpio_write(gpio, 0);
+        printf("Off\n");
+        //nanosleep(&tim , &tim2);
     }
     //! [Interesting]
 }

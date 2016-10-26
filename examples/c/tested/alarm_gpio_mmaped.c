@@ -11,14 +11,12 @@ int value = 0;
 mraa_gpio_context gpio;
 struct itimerval timer={0};
 
+int fp = -1;
+
+
 void sigalrm_handler(int signum)
 {
-  mraa_gpio_write(gpio, value);
-  if(value==LOW)
-    value = HIGH;
-  else
-    value = LOW;
-  //printf("%d\n",value);
+  write(fp, "a", 1);
 }
 
 
@@ -26,6 +24,9 @@ int main()
 {
  
   char a[200];
+  
+  fp = open("/home/root/test1", O_RDWR);
+  printf("%d\n",fp);
   /* Initial timeout value */
   timer.it_value.tv_usec = alarm_time;
 
